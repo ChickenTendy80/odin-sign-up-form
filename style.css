@@ -1,3 +1,12 @@
 body{
     display: flex;
 }
+
+.image-container{
+    position: relative;
+}
+
+.placeholder,
+.icon{
+    position: relative;
+}
