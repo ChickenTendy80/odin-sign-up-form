@@ -1,19 +1,58 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
 body{
     display: flex;
+}
+
+.left{
+    min-width: 450px;
 }
 
 .image-container{
     position: relative;
 }
 
+.right{
+    display:block;
+}
+.form-format{
+    box-shadow: 5px 5px 15px 5px rgb(0,0,0,0.5);
+    padding: 8px 32px;
+    margin: 32px 0px;
+}
+
 .placeholder,
 .icon{
-    position: relative;
+    position: absolute;
 }
 
 .placeholder{
     background-color:black;
-    opacity: 50%;
+    opacity: 0.3;
     height: 200px;
     width: 400px;
+    top: 50px;
+    right: 50px;
+}
+
+.icon{
+    width: 50px;
+    height: auto;
+}
+
+form{
+    display:flex;
+    width: 450px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+form p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
 }
