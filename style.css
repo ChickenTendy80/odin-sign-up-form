@@ -19,10 +19,22 @@ body{
 .right{
     display:block;
 }
+
+.top-text{
+    margin: 32px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    width: 640px;
+}
+
 .form-format{
     box-shadow: 5px 5px 15px 5px rgb(0,0,0,0.5);
-    padding: 8px 32px;
+    padding: 16px 32px;
     margin: 32px 0px;
+    display:flex;
+    width: 450px;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .placeholder,
@@ -44,15 +56,18 @@ body{
     height: auto;
 }
 
-form{
-    display:flex;
-    width: 450px;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
 form p{
     display: flex;
     flex-wrap: wrap;
     width: 150px;
+}
+
+button{
+    background-color:#596D48;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 32px 8px;
+    width: 400px;
+    margin-bottom: 16px;
 }
